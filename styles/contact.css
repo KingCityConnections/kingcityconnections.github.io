@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+
+}
+
+form label,
+form select,
+form input[type="text"],
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

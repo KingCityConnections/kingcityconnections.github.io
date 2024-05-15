@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <title>King City Connections</title>
 </head>
 <body>
@@ -18,6 +19,32 @@
         <li><a href="ratings.html">Ratings</a></li>
     </ul>
 </nav>
+<div class="container">
+    <form action="https://formsubmit.co/360be6ca04c34304dcd7df71b86037de" method="post" enctype="text/plain">
+        <h1>Contact Us</h1>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="contact">Contact Info</label>
+        <input type="text" id="contactInfo" name="contactInfo" placeholder="Phone or email">
 
+        <label for="service">Choose a Service:</label>
+        <select id="service" name="service">
+            <option value="generalTroubleshooting">General Troubleshooting</option>
+            <option value="networkServicing">Network Servicing</option>
+            <option value="virusRemoval">Virus Removal</option>
+            <option value="Fraud Detection">Fraud Detection</option>
+            <option value="printerRepair">Printer Repair</option>
+            <option value="computerUpgrade">Computer Upgrades</option>
+            <option value="computerLessons">Private Lessons</option>
+            <option value="other">Other</option>
+            
+        </select>
+
+        <label for="details">Further Details:</label>
+        <textarea id="details" name="details" rows="4" cols="30"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
 </body>
 </html>

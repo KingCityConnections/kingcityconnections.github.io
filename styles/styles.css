@@ -1,0 +1,52 @@
+
+
+img {
+  width: 650px;
+}
+
+nav {
+  background-color: black;
+  overflow: hidden;
+  font-size: 25px;
+  margin: 0 auto; /* Center the nav horizontally */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+nav a.active {
+  background-color: #555; 
+}
+
+.image-container {
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+
+.image-container img {
+  max-width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
