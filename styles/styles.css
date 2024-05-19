@@ -42,7 +42,7 @@ nav ul li {
 nav ul li a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 200%;
+  font-size: 34px;
 }
 
 nav ul li a.active,
@@ -52,7 +52,6 @@ nav ul li a:hover {
 
 /* Main Content */
 main {
-
   padding: 20px;
 }
 
@@ -73,7 +72,7 @@ section.about-us h2 {
 }
 
 section.about-us p {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
