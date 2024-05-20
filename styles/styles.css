@@ -93,6 +93,7 @@ section.about-us {
 section.about-us h1 {
   font-size: 31px;
   font-family: 'Cascadia Code', monospace;
+  margin: 2px;
 }
 
 section.about-us h2 {
