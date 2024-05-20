@@ -15,7 +15,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
 }
 
 /* Header Image Container */
@@ -71,6 +70,19 @@ nav ul li a:hover {
 /* Main Content */
 main {
   padding: 10px;
+  background-image: url('../images/background.png'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat:no-repeat; /* Prevents the image from repeating */
+  height: 100%; /* Sets the height to 100% of the viewport height */
+  width: 100%;
+}
+
+.opaque-wrapper {
+  margin: 0 auto;
+  backdrop-filter: blur(6px); /* Adjust the blur amount as needed */
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8)); 
+  max-width: 800px;
 }
 
 section.about-us {
@@ -140,6 +152,10 @@ section.about-us ul li {
   margin-bottom: 10px;
 }
 
+
+.bottomSpacer {
+  padding-bottom: 35px;
+}
 /* Footer */
 footer {
   background-color: #000000;
