@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Italianate';
+  src: url('../fonts/Italianate.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('../fonts/CascadiaCode.ttf') format('truetype');
+}
+
+
 /* General Styles */
 body {
   font-family: "Arial", sans-serif; /* Use the same font as your logo if possible */
@@ -10,12 +21,18 @@ body {
 /* Header Image Container */
 .image-container {
   text-align: center;
-  margin-top: 20px;
 }
 
-.image-container img {
+.image-container .header {
   max-width: 100%;
-  max-height: 400px;
+  max-height: 160px;
+  height: auto;
+  display: inline-block;
+}
+
+.subheader {
+  max-width: 100%;
+  max-height: 40px;
   height: auto;
   display: inline-block;
 }
@@ -25,6 +42,7 @@ nav {
   background-color: #000000;
   padding: 10px 0;
   font-weight: 400;
+  font-family: 'Cascadia Code', monospace;
 
 }
 
@@ -36,7 +54,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 22px;
+  margin: 0 10px;
 }
 
 nav ul li a {
@@ -52,7 +70,7 @@ nav ul li a:hover {
 
 /* Main Content */
 main {
-  padding: 20px;
+  padding: 10px;
 }
 
 section.about-us {
@@ -62,13 +80,14 @@ section.about-us {
 
 section.about-us h1 {
   font-size: 31px;
-  margin-bottom: 20px;
+  font-family: 'Cascadia Code', monospace;
 }
 
 section.about-us h2 {
   font-size: 28px;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 10px;
+  font-family: 'Cascadia Code', monospace;
 }
 
 section.about-us p {
