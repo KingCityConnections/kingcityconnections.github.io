@@ -42,7 +42,6 @@ nav {
   padding: 10px 0;
   font-weight: 400;
   font-family: 'Cascadia Code', monospace;
-
 }
 
 nav ul {
@@ -64,7 +63,7 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  color: #cccccc;
+  color: lightgrey;
 }
 
 /* Main Content */
