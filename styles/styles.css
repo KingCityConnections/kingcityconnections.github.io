@@ -8,7 +8,11 @@
   src: url('../fonts/CascadiaCode.ttf') format('truetype');
 }
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* General Styles */
 body {
   font-family: "Arial", sans-serif; /* Use the same font as your logo if possible */
@@ -31,19 +35,19 @@ body {
 
 .subheader {
   max-width: 100%;
-  max-height: 40px;
+  max-height: 75px;
   height: auto;
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 
 /* Navigation Menu */
 nav {
   background-color: #000000;
-  padding: 10px 0;
   font-weight: 400;
   font-family: 'Cascadia Code', monospace;
+  padding: 10px 0;
 }
 
 nav ul {
