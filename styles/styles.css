@@ -69,16 +69,17 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  color: lightgrey;
+  color: rgb(0, 162, 255);
 }
 
 /* Main Content */
 main {
   padding: 10px;
-  background-image: url('../images/background.png'); /* Replace with your image path */
+  background-image: url('../images/backgroundYRepeat.png'); /* Replace with your image path */
   background-size: cover; /* Ensures the image covers the entire element */
-  background-position: center; /* Centers the image */
-  background-repeat:no-repeat; /* Prevents the image from repeating */
+  /* add parallax. "background-attachment: fixed" sort of does it but isn't compatible on mobile */
+  background-position: top; /* Centers the image at top */
+  background-repeat:repeat-y; /* Prevents the image from repeating */
   height: 100%; /* Sets the height to 100% of the viewport height */
   width: 100%;
 }
@@ -86,7 +87,7 @@ main {
 .opaque-wrapper {
   margin: 0 auto;
   backdrop-filter: blur(6px); /* Adjust the blur amount as needed */
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8)); 
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)); 
   max-width: 800px;
 }
 
