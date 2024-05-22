@@ -86,8 +86,8 @@ main {
 
 .opaque-wrapper {
   margin: 0 auto;
-  backdrop-filter: blur(6px); /* Adjust the blur amount as needed */
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)); 
+  backdrop-filter: blur(4px); /* Adjust the blur amount as needed */
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); 
   max-width: 800px;
 }
 
