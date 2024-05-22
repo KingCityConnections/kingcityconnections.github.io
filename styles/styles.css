@@ -74,7 +74,6 @@ nav ul li a:hover {
 
 /* Main Content */
 main {
-  padding: 10px;
   background-image: url('../images/backgroundYRepeat.png'); /* Replace with your image path */
   background-size: cover; /* Ensures the image covers the entire element */
   /* add parallax. "background-attachment: fixed" sort of does it but isn't compatible on mobile */
