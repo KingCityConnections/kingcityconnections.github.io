@@ -86,9 +86,9 @@ main {
 
 .opaque-wrapper {
   margin: 0 auto;
-  -webkit-backdrop-filter: blur(4px); /*possible safari fix */
-  backdrop-filter: blur(4px); /* Adjust the blur amount as needed */
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)); 
+  -webkit-backdrop-filter: blur(10px); /*possible safari fix */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  background-color: rgb(255 255 255 / 30%);
   max-width: 800px;
 }
 
