@@ -1,52 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/contact.css">
-    <title>King City Connections</title>
-</head>
-<body>
-
+  <head>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    <link rel="stylesheet" href="styles/contact.css" type="text/css" />
+    <title>
+      Contact Tigard Computer Repair & Tech Help - King City Connections
+    </title>
+    <meta
+      name="description"
+      content="King City Connections offers top-notch computer repair and tech support in King City and Tigard. Fast, reliable service with a satisfaction guarantee."
+    />
+    <meta
+      name="keywords"
+      content="King City computer repair, Tigard computer repair, computer help, tech support, computer problems"
+    />
+    <link rel="icon" type="image/png" href="images/tabImage.png" />
+  </head>
+  <body>
     <div class="image-container">
-        <img src="images/header.png" alt="King City Connections">
+      <img
+        class="header"
+        src="images/header.png"
+        alt="King City Connections Logo - King City and Tigard Computer Repair"
+      />
     </div>
 
-<nav>
-    <ul>
+    <nav>
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
         <li><a href="ratings.html">Reviews</a></li>
-    </ul>
-</nav>
-<div class="container">
-    <form action="https://formsubmit.co/360be6ca04c34304dcd7df71b86037de" method="post">
-        <input type="hidden" name="_next" value="https://kingcityconnections.com"> 
-        <input type="hidden" name="_subject" value="Website Submission">
-        <input type="hidden" name="_captcha" value="false">
-        <h1>Contact Us</h1>
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="contact">Contact Info</label>
-        <input type="text" id="contactInfo" name="contactInfo" placeholder="Phone or email" required>
-        <label for="service">Choose a Service:</label>
-        <select id="service" name="service">
-            <option value="generalTroubleshooting">General Troubleshooting</option>
-            <option value="networkServicing">Network Servicing</option>
-            <option value="virusRemoval">Virus Removal</option>
-            <option value="Fraud Detection">Fraud Detection</option>
-            <option value="printerRepair">Printer Repair</option>
-            <option value="computerUpgrade">Computer Upgrades</option>
-            <option value="computerLessons">Private Lessons</option>
-            <option value="other">Other</option>
-            
-        </select>
+      </ul>
+    </nav>
 
-        <label for="details">Further Details:</label>
-        <textarea id="details" name="details" rows="4" cols="30"></textarea>
+    <main>
+      <div class="opaque-wrapper">
+        <div class="image-container">
+          <img
+            class="subheader"
+            src="images/contactHeader.png"
+            alt="Contact King City Connections - Tigard Computer Repair"
+          />
+        </div>
 
-        <input type="submit" value="Submit">
-    </form>
-</div>
-</body>
+        <div class="container">
+          <form
+            action="https://formsubmit.co/360be6ca04c34304dcd7df71b86037de"
+            method="post"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://kingcityconnections.com"
+            />
+            <input type="hidden" name="_subject" value="Website Submission" />
+            <input type="hidden" name="_captcha" value="false" />
+            <div class="inputFieldWrapper">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div class="inputFieldWrapper">
+            <label for="contact">Contact Info</label>
+            <input
+              type="text"
+              id="contactInfo"
+              name="contactInfo"
+              placeholder="Phone or email"
+              required
+            />
+            </div>
+            <div class="inputFieldWrapper">
+            <label for="service">Choose a Service:</label>
+            <select id="service" name="service">
+              <option value="General Troubleshooting">
+                General Troubleshooting
+              </option>
+              <option value="Virus Removal">Virus Removal</option>
+              <option value="Computer Upgrades">Computer Upgrades</option>
+              <option value="Printer Repair">Printer Repair</option>
+              <option value="Fraud Detection">Fraud Detection</option>
+              <option value="Graphic Designs">Graphic Designs</option>
+              <option value="Network Servicing">Network Servicing</option>
+              <option value="Website Management">Website Management</option>
+              <option value="Web App Development">Web App Development</option>
+              <option value="Public Lessons">Public Lessons</option>
+              <option value="Private Lessons">Private Lessons</option>
+              <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="inputFieldWrapper">
+            <label for="details">Further Details:</label>
+            <textarea id="details" name="details" rows="4" cols="30"></textarea>
+        </div>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 King City Connections. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

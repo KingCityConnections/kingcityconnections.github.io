@@ -2,10 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 30px;
+    font-family: 'Italianate', monospace;
 }
 
+
 form {
-    width: 300px; /* Adjust the width as needed */
+    width: 600px; /* Adjust the width as needed */
     padding: 20px;
 
 }
@@ -16,6 +21,9 @@ form input[type="text"],
 form textarea {
     display: block;
     margin-bottom: 10px;
+    width: 100%;
+    font-size: 105%;
+    text-align: center; /* Center the text within the input boxes */
 }
 
 form input[type="submit"] {
@@ -25,4 +33,11 @@ form input[type="submit"] {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+
 }
+
+.inputFieldWrapper{
+    padding-bottom: 20px;
+}
+
+
