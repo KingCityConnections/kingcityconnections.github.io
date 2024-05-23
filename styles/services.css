@@ -1,0 +1,13 @@
+.services {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 22px;
+    font-family: 'Cascadia Code', monospace;
+}
+.services h2 {
+    text-decoration: underline;
+    padding-bottom: 7px;
+}
+.services p {
+    padding-bottom: 15px;
+}
