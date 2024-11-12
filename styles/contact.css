@@ -39,4 +39,11 @@ form input[type="submit"] {
     padding-bottom: 10px;
 }
 
+.contact-details {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
 
